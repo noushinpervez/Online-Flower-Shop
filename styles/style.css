@@ -1,0 +1,267 @@
+/* Lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background: #E55473;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+button:hover {
+    background: #e55473d0;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+.section-heading {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #272727;
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-bottom: 1.1rem;
+}
+
+header p,
+main p,
+footer p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 0.8rem;
+    line-height: 166.67%;
+}
+
+.important {
+    color: #E55473;
+}
+
+/* header styles */
+/* banner styles */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    margin-bottom: 8.3rem;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.3rem;
+}
+
+.banner-container {
+    max-width: 36%;
+}
+
+.banner h1 {
+    color: #272727;
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin-bottom: 1.1rem;
+}
+
+.banner p {
+    margin-bottom: 1.1rem;
+}
+
+.banner .banner-img {
+    max-width: 45%;
+}
+
+/* featured flowers section styles */
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.1rem;
+    margin-top: 2.25rem;
+}
+
+.section-content .flower {
+    flex: 33%;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.section-content .flower .flower-img img {
+    max-width: 70%;
+    height: auto;
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+    align-items: center;
+}
+
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower a {
+    color: #272727;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* shop features section styles */
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 4rem 0;
+    max-width: 100%;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+    max-width: 100%;
+}
+
+.features-container p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+
+.icon {
+    max-height: 50%;
+    max-width: 50%;
+}
+
+/* hot deals section styles */
+#hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.6rem 0;
+    gap: 8.68rem;
+}
+
+#hot-deal .hot-deal-text p {
+    margin-bottom: 1.1rem;
+}
+
+#hot-deal .hot-deal-text {
+    max-width: 35%;
+}
+
+#hot-deal .hot-deal-img {
+    max-width: 20%;
+}
+
+/* instagram picks section styles */
+.container .social-container {
+    display: flex;
+    gap: 1rem;
+    max-width: 23.75%;
+    margin-top: 2.25rem;
+}
+
+/* newsletter section styles */
+.newsletter {
+    background-image: url("../assets/newsletter-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 6rem 0;
+}
+
+.newsletter form {
+    margin: 2.25rem auto 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    max-width: 60%;
+}
+
+.newsletter input {
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    flex-grow: 1;
+    padding: 1rem;
+    color: rgba(39, 39, 39, 0.60); 
+    font-size: 0.75rem;
+}
+
+/* footer styles */
+footer {
+    text-align: center;
+    background: #111010;
+    padding: 6rem 0;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+footer h2 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    margin-top: 1.1rem;
+}
+
+#copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 0.75rem;
+    margin-top: 1.5rem;
+}
